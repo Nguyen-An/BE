@@ -13,7 +13,11 @@ STT_CODE = {
     "USER_HAS_BOOKED_TABLE": "Người dùng đã đặt bàn",
     "USER_HAS_NOT_BOOKED_TABLE": "Người dùng chưa đặt bàn",
     "USER_HAS_MORE_THAN_ORDER_OR_PENDING_ORDER": "Người dùng đang còn nhiều hơn 1 order hoặc đơn chờ",
-    "INCORRECT_LOGIN_TYPE": "Loại đăng nhập không đúng"
+    "INCORRECT_LOGIN_TYPE": "Loại đăng nhập không đúng",
+    "FILE_FORMAT_NOT_SUPPORTED": "File không đúng định dạng",
+    "FILE_SIZE_EXCEEDED": "File quá lớn",
+    "FILE_EMPTY": "File không được phép trống",
+    "UPLOOAD_S3_FAIL": "Upload lên s3 lỗi",
 }
 
 def create_error_response(detail: str, error_code: str):
