@@ -21,4 +21,4 @@ async def upload_avatar(request:Request,file: UploadFile, db: Session = Depends(
         key =  await upload.upload_avatar_to_s3(user_info,file,db)        
         return key
     except Exception as e:        
-        return Response(status_code=e.status_code, content=str(e))
+        return Response(status_code=e.status_code, content=str(e)) 
